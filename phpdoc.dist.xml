@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor configVersion="3" xmlns="https://www.phpdoc.org">
+    <title>Coleo Router</title>
+    <setting name="template.color" value="blue"/>
+    <paths>
+        <!-- Куда сохранять готовую документацию -->
+        <output>build/docs</output>
+        <cache>build/cache</cache>
+    </paths>
+    <version number="0.0.1">
+        <api>
+            <source dsn=".">
+                <path>src</path>
+            </source>
+            <ignore>
+                <path>tests/**/*</path>
+                <path>vendor/**/*</path>
+            </ignore>
+        </api>
+    </version>
+</phpdocumentor>

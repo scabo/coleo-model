@@ -1,0 +1,15 @@
+/vendor/
+/phpunit.result.cache
+
+/build/cache
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+.DS_Store
+Thumbs.db
+.phpunit.result.cache
+phpunit.xml
+.phpdoc
